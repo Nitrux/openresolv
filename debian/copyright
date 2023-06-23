@@ -11,7 +11,7 @@ Files: debian/*
 Copyright: 2010-2012 Roy Marples <roy@marples.name>
            2015-2016 Herbert Parentes Fortes Neto <hpfn@ig.com.br>
            2016      Jose dos Santos Junior <j.s.junior@live.com>
-           2020-2023 Fabio Augusto De Muzio Tobich <ftobich@debian.org>
+           2020-2022 Fabio Augusto De Muzio Tobich <ftobich@debian.org>
 License: BSD-2-clause
 
 License: BSD-2-clause

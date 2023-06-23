@@ -13,6 +13,7 @@ override_dh_auto_configure:
 override_dh_install:
 	dh_install
 	install -D -p --mode=0644 ${SRCDIR}/dhclient ${DESTDIR}/etc/dhcp/dhclient-enter-hooks.d/resolvconf
+	cat ${SRCDIR}/resolvconf.conf-debian >> ${DESTDIR}/etc/resolvconf.conf
 
 override_dh_installifupdown:
 	dh_installifupdown --name=000resolvconf
