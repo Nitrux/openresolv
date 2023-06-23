@@ -14,6 +14,6 @@ to
 
 pdnsd users are advised to follow the configuration described in
 resolvconf.conf(5) and set
-AUTO_MODE=
+ATUO_MODE=
 in /etc/default/pdnsd
 to ensure that /etc/pdsnd.conf is used.

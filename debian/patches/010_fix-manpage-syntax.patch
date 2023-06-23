@@ -1,7 +1,7 @@
 Description: fix syntax in .Bd macros and some minor spelling errors
 Author: Fabio Augusto De Muzio Tobich <ftobich@gmail.com>
 Forwarded: no
-Last-Update: 2023-06-16
+Last-Update: 2020-12-19
 Index: openresolv/resolvconf.conf.5.in
 ===================================================================
 --- openresolv.orig/resolvconf.conf.5.in
@@ -47,9 +47,10 @@ Index: openresolv/resolvconf.conf.5.in
  nameserver 1.2.3.4
  nameserver 2.3.4.5
  .Ed
-+.Pp
- and this configuration:
+-and this configuaration:
 -.Bd -compact -literal -offset indent
++.Pp
++and this configuration:
 +.Bd -literal -offset indent
  replace="search/foo*/bar.com"
  replace="$replace nameserver/1.2.3.4/5.6.7.8"
@@ -81,9 +82,9 @@ Index: openresolv/resolvconf.conf.5.in
  .It Sy state_dir
  Override the default state directory of
  .Pa @VARDIR@ .
-@@ -224,7 +228,7 @@ the subscribers main configuration file.
+@@ -224,7 +228,7 @@ in the subscribers main configuration fi
  .Pp
- To disable a subscriber, simply set its name to NO.
+ To disable a subscriber, simply set it's name to NO.
  For example, to disable the libc subscriber you would set:
 -.Bd -compact -literal -offset indent
 +.Bd -literal -offset indent
@@ -157,8 +158,8 @@ Index: openresolv/resolvconf.conf.5.in
  allow-from=127.0.0.0/8, ::1/128
  forward-zones-file=/etc/pdns/recursor-zones.conf
  .Ed
-@@ -327,13 +331,13 @@ Options appended to each forward zone.
- Each option should be separated by an embedded new line.
+@@ -324,13 +328,13 @@ This file tells unbound about specific a
+ When set to YES, unbound marks the domains as insecure, thus ignoring DNSSEC.
  .Pp
  Example resolvconf.conf for unbound:
 -.Bd -compact -literal -offset indent
