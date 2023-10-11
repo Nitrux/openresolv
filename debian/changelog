@@ -1,6 +1,6 @@
-openresolv (3.13.1-2) unstable; urgency=medium
+openresolv (3.13.1-3) unstable; urgency=medium
 
   * Revert changes in Debian that caused this to literally brake.
   * Handle Unbound/dnsmasq/PowerDNS BY DEFAULT.
 
- -- Uri Herrera <uri_herrera@nxos.org>  Thu, 22 Jan 2023 20:49:00 -0500
+ -- Uri Herrera <uri_herrera@nxos.org>  Tue, 10 Oct 2023 18:41:00 -0500
